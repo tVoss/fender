@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-starter",
+  "name": "fender",
   "version": "1.0.0",
-  "description": "Template for react-redux web applications",
+  "description": "Fitbit api playgroud",
   "main": "src/index.js",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tVoss/react-redux-starter.git"
+    "url": "git+https://github.com/tVoss/fender.git"
   },
   "author": "Tyler Voss <tVoss42@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tVoss/react-redux-starter/issues"
+    "url": "https://github.com/tVoss/fender/issues"
   },
-  "homepage": "https://github.com/tVoss/react-redux-starter#readme",
+  "homepage": "https://github.com/tVoss/fender#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
