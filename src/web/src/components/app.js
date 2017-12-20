@@ -28,8 +28,20 @@ class App extends React.Component {
         return (
             <div>
                 <Dummy />
+                <button onClick={this.onFitbitClick}>Sign in to FitBit</button>
             </div>
         )
+    }
+
+    onFitbitClick = () => {
+
+        const url = 'https://www.fitbit.com/oauth2/authorize'+
+            '?response_type=code' +
+            '&client_id=22CHGY' +
+            '&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight' +
+            '&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Ffitbit';
+
+        window.location.replace(url)
     }
 }
 
